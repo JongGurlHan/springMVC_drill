@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class HomeController {
-	//test22
+	//test33
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
 		return "index";
